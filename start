@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# retrieve notebooks and place correctly in session
+git clone https://github.com/fomightez/rcomptest-accompmatz.git
+mv rcomptest-accompmatz/index.ipynb .
+mv rcomptest-accompmatz/notebooks .
+rm -rf rcomptest-accompmatz
+
+
+
+# this must be last line according to 
+# https://repo2docker.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts
+exec "$@"

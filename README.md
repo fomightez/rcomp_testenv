@@ -37,3 +37,15 @@ http://mybinder.org/v2/gh/binder-examples/r/master?urlpath=shiny/bus-dashboard/,
 
 you will need (1) to put in the final slash in the URL, and (2) to avoid converted 
 spaces-'%20'-in the URL, instead placing a hyphen.
+
+
+Location of content
+-------------------
+
+The code for content is available at [this repository here](https://github.com/fomightez/rcomptest-accompmatz). In an effort to streamline development, they have been moved there. Importantly, this means this core image doesn't need building often because it takes a long time to build.
+
+Jupyter+R: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/fomightez/rcomp_testenv/master?filepath=index.ipynb)
+
+RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/fomightez/rcomp_testenv/master?urlpath=rstudio)
+
+RShiny: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/fomightez/rcomp_testenvmaster?urlpath=shiny/bus-dashboard/)
