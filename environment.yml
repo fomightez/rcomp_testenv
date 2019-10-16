@@ -1,0 +1,10 @@
+name: rcomptestenv-binderized
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  #- qgrid 
+  - jupyterlab >= 1.0
+  - pip
+
