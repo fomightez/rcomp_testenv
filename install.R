@@ -1,3 +1,5 @@
+install.packages("BiocManager")
+BiocManager::install("mixOmics")
 install.packages("RVAideMemoire")
 install.packages("lsmeans")
 install.packages("Rmisc")
