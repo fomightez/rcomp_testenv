@@ -1,0 +1,13 @@
+libgl1-mesa-dev
+libegl1-mesa
+libglx-mesa0
+libglu1-mesa
+libxrandr2
+libxi6
+libudunits2-0 
+libudunits2-dev
+libgdal-dev
+libgeos-dev
+libproj-dev
+libgdal-dev
+gfortran
